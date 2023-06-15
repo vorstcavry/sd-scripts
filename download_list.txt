@@ -1,0 +1,78 @@
+// Instructions:
+// 1. Start with a key name preceded by a '#'. Key names should match those in the `custom_dirs` dictionary in your script.
+// 2. Key names are not case-sensitive.
+// 3. List your URLs for download under the key. Each URL should be on a new line.
+// 4. To download multiple files under the same key, just continue listing the URLs.
+// 5. To specify a filename for the download, format it as "URL | filename". Example: https://civitai.com/api/download/models/84623 | filename1.pth
+// 6. Lines starting with "//" are considered comments and will be ignored by the script.
+//
+// Available hashtag:
+// `#model`, `#vae`, `#embedding`, `#lora`, `#hypernetwork`, `#extensions`, `#upscaler`
+//
+// Example:
+// 
+// #model
+// https://civitai.com/api/download/models/82446
+// https://civitai.com/api/download/models/76907 | model.safetensors
+//
+// Start Here...
+#model
+https://huggingface.co/Linaqruf/stolen/resolve/main/fp16/majicmixRealistic_v5.safetensors
+https://huggingface.co/vorstcavry/LoRA-set/resolve/main/majicmixRealistic_v5.preview.png
+#lora
+https://huggingface.co/vorstcavry/LoRA-set/resolve/main/JapaneseDollLikeness_v15.safetensors
+https://huggingface.co/vorstcavry/LoRA-set/resolve/main/koreanDollLikeness.safetensors
+https://huggingface.co/vorstcavry/LoRA-set/resolve/main/taiwanDollLikeness_v20.safetensors
+https://huggingface.co/vorstcavry/LoRA-set/resolve/main/Aestetic.safetensors
+https://huggingface.co/vorstcavry/LoRA-set/resolve/main/Aestetic.preview.png
+https://huggingface.co/vorstcavry/LoRA-set/resolve/main/JapaneseDollLikeness_v15.png
+https://huggingface.co/vorstcavry/LoRA-set/resolve/main/koreanDollLikeness.png
+https://huggingface.co/vorstcavry/LoRA-set/resolve/main/taiwanDollLikeness_v20.png
+#embedding
+https://huggingface.co/vorstcavry/negatif/resolve/main/16-token-negative-deliberate-neg.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/16-token-negative-deliberate-neg.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/7dirtywords.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/7dirtywords.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/BadDream.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/BadDream.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/BadNegAnatomyV1-neg.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/BadNegAnatomyV1-neg.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/DrD_PNTE768.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/DrD_PNTE768.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/EasyNegative.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/EasyNegative.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/FastNegativeEmbedding.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/FastNegativeEmbedding.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad-artist-anime.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad-artist-anime.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad-artist.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad-artist.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/ng_deepnegative_v1_75t.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/ng_deepnegative_v1_75t.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/negmutation-2400.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/negmutation-2400.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/negative_prompt.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/negative_prompt.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/negative_hand-neg.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/negative_hand-neg.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/neg_Colorizer768-neutral.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/neg_Colorizer768-neutral.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/kkw-Extreme-Neg.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/kkw-Extreme-Neg.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/badquality.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/badquality.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/badhandv4.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/badhandv4.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad_prompt_version2.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad_prompt_version2.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad_prompt_version2-neg.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad_prompt_version2-neg.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad_pictures.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad_pictures.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad-image-v2-39000.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad-image-v2-39000.preview.png
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad-hands-5.pt
+https://huggingface.co/vorstcavry/negatif/resolve/main/bad-hands-5.preview.png
+#extensions
+https://github.com/Iyashinouta/sd-model-downloader
+https://github.com/vorstcavry/images-browser
